@@ -94,7 +94,7 @@ function finerr() {
 # Zipping
 function zipping() {
     cd AnyKernel || exit 1
-    zip -r9 [HMP]Magazine-Kernel-${ZIP_DATE}.zip *
+    zip -r9 [HMP]Magazine-Kernel-X00T-${ZIP_DATE}.zip *
     cd ..
 }
 check
