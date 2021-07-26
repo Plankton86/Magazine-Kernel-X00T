@@ -22,7 +22,7 @@
 #define KGSL_PWRFLAGS_ON   1
 #define KGSL_PWRFLAGS_OFF  0
 
-#define KGSL_PWRLEVEL_TURBO 1
+#define KGSL_PWRLEVEL_TURBO 0
 
 #define KGSL_PWR_ON	0xFFFF
 
