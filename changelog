@@ -1,9 +1,0 @@
-<b><#selectbg_g>July 20,2021</#></b>
-
-  <*> Bringup SkyWalker-Hoshi-R2</*>
-  <*> Merged Linux Stable Google Tag 'v4.4.276'</*>
-  
-<b><#selectbg_g>July 15,2021</#></b>
-
-  <*> Revert "X00TD: drivers: touchscreen: Add back tpd_gesture support"</*>
-  <*> Revert "X00TD: drivers: input/nvt: Set dt2w and gestures seperately"</*>
