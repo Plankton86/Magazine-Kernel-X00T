@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
-git clone --depth=1 https://github.com/xyz-prjkt/xRageTC-clang.git xRage
+git clone --depth=1 https://github.com/Plankton00/Predator_clang_13.git PredatorClang
 git clone --depth=1 https://github.com/Plankton00/Magazine-Kernel-X00T.git Magazine-HMP
 
 # Main
 KERNEL_ROOTDIR=$(pwd)/Magazine-HMP # IMPORTANT ! Fill with your kernel source root directory.
 DEVICE_DEFCONFIG=Magazine_defconfig # IMPORTANT ! Declare your kernel source defconfig file here.
-CLANG_ROOTDIR=$(pwd)/xRage # IMPORTANT! Put your clang directory here.
+CLANG_ROOTDIR=$(pwd)/PredatorClang # IMPORTANT! Put your clang directory here.
 export KBUILD_BUILD_USER=StarWars # Change with your own name or else.
 export KBUILD_BUILD_HOST=Plankton86 # Change with your own hostname.
 CLANG_VER="$("$CLANG_ROOTDIR"/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/  */ /g' -e 's/[[:space:]]*$//')"
